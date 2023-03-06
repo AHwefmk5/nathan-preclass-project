@@ -1,6 +1,9 @@
-first_name = "Don Nathan"
-middle_name= "Lagadia"
-last_name= "Latoja"
-name = first_name, + middle_name, + last_name
+def is_legal_age?(age)
+  if age >= 18
+    return 'is an adult'
+  else
+    return 'is not an adult'
+  end
+end
 
-p name
+p is_legal_age?(20, 'Nathan')
