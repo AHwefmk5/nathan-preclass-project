@@ -6,4 +6,4 @@ def is_legal_age?(age)
   end
 end
 
-p is_legal_age?(20, 'Nathan')
+p is_legal_age?(20)
